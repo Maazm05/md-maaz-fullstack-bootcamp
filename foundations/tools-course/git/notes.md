@@ -16,8 +16,12 @@ ssh-add ~/.ssh/id_ed25519
 - Add SSH public key to GitHub account
 
 
-# Git branches
+# git branches
 
+## check current branch
+```
+git branch
+```
 ## Create branch
 ```
 git branch branch-name
@@ -25,4 +29,9 @@ git branch branch-name
 ## Switching between branches
 ```
 git checkout branch-name
+```
+
+# cloning a repository
+```
+git clone https://github.com/repo-name.git
 ```
